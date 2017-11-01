@@ -1,0 +1,1 @@
+# srv-gamemodes-eclipse.pwn
