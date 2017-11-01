@@ -2,8 +2,16 @@
 #include <a_mysql>
 #include <zcmd>
 
+#define SQL_HOST	""
+#define SQL_USER	""
+#define SQL_PASS	""
+#define SQL_DB		""
+
+new MySQL:sql;
+
 public OnGameModeInit()
 {
+	sql = mysql_connect(SQL_HOST, SQL_USER, SQL_PASS, SQL_DB);
 	return 1;
 }
 
